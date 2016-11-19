@@ -1,0 +1,95 @@
+exports[`test renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#5f9ea0",
+      "flex": 1,
+      "flexDirection": "column",
+      "justifyContent": "center",
+      "padding": 20,
+    }
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#fff",
+        "fontSize": 25,
+        "marginBottom": 40,
+        "marginTop": 20,
+        "textAlign": "center",
+      }
+    }>
+     ROMANIAN DICTIONARY 
+  </Text>
+  <TextInput
+    onChange={[Function]}
+    placeholder="Search here"
+    style={
+      Object {
+        "borderColor": "white",
+        "borderWidth": 3,
+        "color": "white",
+        "fontSize": 24,
+        "height": 50,
+        "marginRight": 5,
+        "padding": 4,
+      }
+    }
+    value="" />
+  <TouchableOpacity
+    accessibilityComponentType="button"
+    accessibilityLabel="Search for a word in Romanian"
+    accessibilityTraits={
+      Array [
+        "button",
+      ]
+    }
+    activeOpacity={0.2}
+    disabled={undefined}
+    onPress={[Function]}>
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "color": "#0C42FD",
+              "fontSize": 18,
+              "padding": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#ffff",
+            },
+          ]
+        }>
+        Search
+      </Text>
+    </View>
+  </TouchableOpacity>
+  <ActivityIndicator
+    animating={false}
+    color="#111"
+    hidesWhenStopped={true}
+    size="large" />
+  <View />
+  <ScrollView
+    automaticallyAdjustContentInsets={false}
+    onScroll={[Function]}
+    scrollEventThrottle={200}
+    style={undefined}>
+    <View
+      style={undefined} />
+  </ScrollView>
+</View>
+`;

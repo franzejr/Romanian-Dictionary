@@ -1,0 +1,53 @@
+exports[`test renders correctly 1`] = `
+<View
+  style={undefined}>
+  <View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "column",
+          "padding": 10,
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail" />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#E4E4E4",
+          "flex": 1,
+          "height": 1,
+          "marginLeft": 15,
+        }
+      } />
+  </View>
+  <View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "column",
+          "padding": 10,
+        }
+      }>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail" />
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#E4E4E4",
+          "flex": 1,
+          "height": 1,
+          "marginLeft": 15,
+        }
+      } />
+  </View>
+</View>
+`;
